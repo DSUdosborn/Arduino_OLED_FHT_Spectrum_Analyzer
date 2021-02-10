@@ -19,7 +19,7 @@ drawDouble or drawSingle functions.
 // #define OCTAVE 1
 #define FHT_N 256 // set to 256 point fht
 
-#include "PinChangeInt.h"
+#include "EnableInterrupt.h"
 #include <FHT.h> // include the library
 
 #include "U8glib.h"
