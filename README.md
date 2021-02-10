@@ -16,6 +16,7 @@ The target hardware for this project is an arduino model 2650 and 128x32 SSD1306
 
 (Originally) Using GreyGnome's PinChangeInt to change detect button push and change number of bars displayed: 
      https://github.com/GreyGnome/PinChangeInt 
+     
 (Updated)  PinChangeInt deprecated.  Upgraded to use new version of interrupt library
 
 
@@ -24,6 +25,7 @@ The target hardware for this project is an arduino model 2650 and 128x32 SSD1306
 https://github.com/uxking/Arduino_OLED_FHT_U8gLib_Spectrum_Analyzer  The basis for this work
 
 (from the original readme)
+
 Also found some code by the-fuchs on Github to help with the peak hold display. 
 I believe his code was working with an MSGEQ7 7 band chip, but I was able to use some of his magic in my sketch.  
 https://github.com/the-fuchs/AVR-7-BandAudioSpectrum check out main.c and his drawDouble or drawSingle functions.
